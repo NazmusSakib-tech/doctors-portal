@@ -7,14 +7,15 @@ import {
   Link
 } from "react-router-dom";
 import Home from './pages/Home/Home';
+import Appointment from './pages/Appointment/Appointment/Appointment';
 
 function App() {
   return (
     <div className="App">
      <Router>
      <Switch>
-          <Route path="/about">
-            <Home />
+          <Route path="/appointment">
+            <Appointment />
           </Route>
           <Route path="/home">
             <Home/>
